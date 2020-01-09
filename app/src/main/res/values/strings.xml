@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CheckIn</string>
+    <string name="hint_check_name">打卡人</string>
+    <string name="check_in">打卡</string>
+</resources>

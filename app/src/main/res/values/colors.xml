@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+
+    <color name="blue">#1890ff</color>
+    <color name="gold">#ffc53d</color>
+
+<!--    <color name="design_default_color_primary">#3F51B5</color>-->
+<!--    <color name="design_default_color_primary_dark">#303F9F</color>-->
+</resources>
