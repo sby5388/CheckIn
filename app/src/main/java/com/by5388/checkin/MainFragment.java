@@ -74,14 +74,17 @@ public class MainFragment extends Fragment {
         mBinding.swipeRefreshLayout.setRefreshing(true);
         mBinding.buttonCheckIn.setOnClickListener(v -> postData());
         initData();
-        loadData();
+//        loadData();
     }
 
     private void initData() {
         CheckInApp.getInstance().execute(() -> {
             final String savedName = SharedPreferencesTool.getSavedName();
             if (!TextUtils.isEmpty(savedName)) {
-                mHandler.post(() -> mBinding.editTextInputName.setText(savedName));
+                mHandler.post(() -> {
+                    mBinding.editTextInputName.setText(savedName);
+                    loadData();
+                });
             }
         });
     }
