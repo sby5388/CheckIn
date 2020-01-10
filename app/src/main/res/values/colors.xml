@@ -10,7 +10,14 @@
 
     <color name="blue">#1890ff</color>
     <color name="gold">#ffc53d</color>
+    <color name="green1">#f6ffed</color>
+    <color name="green2">#d9f7be</color>
+    <color name="green3">#b7eb8f</color>
+    <color name="green4">#95de64</color>
+    <color name="green5">#73d13d</color>
+    <color name="green6">#52c41a</color>
+    <color name="green7">#389e0d</color>
 
-<!--    <color name="design_default_color_primary">#3F51B5</color>-->
-<!--    <color name="design_default_color_primary_dark">#303F9F</color>-->
+    <!--    <color name="design_default_color_primary">#3F51B5</color>-->
+    <!--    <color name="design_default_color_primary_dark">#303F9F</color>-->
 </resources>

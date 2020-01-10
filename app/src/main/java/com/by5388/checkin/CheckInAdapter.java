@@ -21,9 +21,6 @@ public class CheckInAdapter extends RecyclerView.Adapter<CheckInAdapter.ViewHold
 
     CheckInAdapter() {
         mCheckInItems = new ArrayList<>();
-        for (int i = 0; i < 40; i++) {
-            mCheckInItems.add(new CheckInItem(i, "name" + i, i, "device" + i));
-        }
     }
 
     public void setCheckInItems(List<CheckInItem> checkInItems) {
@@ -60,6 +57,7 @@ public class CheckInAdapter extends RecyclerView.Adapter<CheckInAdapter.ViewHold
 
         void bind(CheckInItem item) {
             mBinding.setViewModel(new CheckInViewModel(item));
+            mBinding.executePendingBindings();
         }
     }
 }
